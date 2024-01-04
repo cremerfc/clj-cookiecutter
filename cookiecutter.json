@@ -1,5 +1,6 @@
 {
   "project_name": "My Awesome Project",
   "project_name_clean": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
-  "project_slug": "{{ cookiecutter.project_name_clean.lower().replace('-', '_') }}"
+  "project_slug": "{{ cookiecutter.project_name_clean.lower().replace('-', '_') }}",
+  "version": 1.0.0
 }
